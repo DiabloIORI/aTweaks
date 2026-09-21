@@ -23,7 +23,7 @@ IF
 THEN
 	RESPONSE #100
 		SetGlobal("rr#trees","LOCALS",2)
-		RemoveSpellRES("rr#tvplt") // remove the spell from memory
+		RemoveSpellRES("rr#tvplt",Myself) // remove the spell from memory
 END
 
 IF
@@ -329,7 +329,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fchrm",LastSeenBy(Myself)) // Charm Person (Dryad and Hamadryad)
-		RemoveSpellRES("rr#fchrm") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fchrm",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -360,7 +360,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fchrm",LastSeenBy(Myself)) // Charm Person (Dryad and Hamadryad)
-		RemoveSpellRES("rr#fchrm") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fchrm",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -391,7 +391,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fchrm",LastSeenBy(Myself)) // Charm Person (Dryad and Hamadryad)
-		RemoveSpellRES("rr#fchrm") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fchrm",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -421,7 +421,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fchrm",LastSeenBy(Myself)) // Charm Person (Dryad and Hamadryad)
-		RemoveSpellRES("rr#fchrm") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fchrm",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -451,7 +451,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fchrm",LastSeenBy(Myself)) // Charm Person (Dryad and Hamadryad)
-		RemoveSpellRES("rr#fchrm") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fchrm",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -481,7 +481,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fchrm",LastSeenBy(Myself)) // Charm Person (Dryad and Hamadryad)
-		RemoveSpellRES("rr#fchrm") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fchrm",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -514,7 +514,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fchrm",LastSeenBy(Myself)) // Charm Person (Dryad and Hamadryad)
-		RemoveSpellRES("rr#fchrm") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fchrm",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -547,7 +547,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fchrm",LastSeenBy(Myself)) // Charm Person (Dryad and Hamadryad)
-		RemoveSpellRES("rr#fchrm") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fchrm",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -580,7 +580,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fchrm",LastSeenBy(Myself)) // Charm Person (Dryad and Hamadryad)
-		RemoveSpellRES("rr#fchrm") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fchrm",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -613,7 +613,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fchrm",LastSeenBy(Myself)) // Charm Person (Dryad and Hamadryad)
-		RemoveSpellRES("rr#fchrm") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fchrm",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -646,7 +646,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fchrm",LastSeenBy(Myself)) // Charm Person (Dryad and Hamadryad)
-		RemoveSpellRES("rr#fchrm") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fchrm",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -679,7 +679,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fchrm",LastSeenBy(Myself)) // Charm Person (Dryad and Hamadryad)
-		RemoveSpellRES("rr#fchrm") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fchrm",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -712,7 +712,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fchrm",LastSeenBy(Myself)) // Charm Person (Dryad and Hamadryad)
-		RemoveSpellRES("rr#fchrm") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fchrm",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -745,7 +745,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fchrm",LastSeenBy(Myself)) // Charm Person (Dryad and Hamadryad)
-		RemoveSpellRES("rr#fchrm") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fchrm",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -778,7 +778,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fchrm",LastSeenBy(Myself)) // Charm Person (Dryad and Hamadryad)
-		RemoveSpellRES("rr#fchrm") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fchrm",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -811,7 +811,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fchrm",LastSeenBy(Myself)) // Charm Person (Dryad and Hamadryad)
-		RemoveSpellRES("rr#fchrm") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fchrm",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 

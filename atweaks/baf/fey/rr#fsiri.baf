@@ -158,7 +158,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
                 ForceSpellRES("rr#fiinv",Myself) // Improved Invisibility (caster level 11th)
-		RemoveSpellRES("rr#wi405") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#wi405",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -193,7 +193,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcld",LastSeenBy(Myself)) // Fog Cloud
-		RemoveSpellRES("rr#fcld") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcld",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -217,7 +217,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcld",LastSeenBy(Myself)) // Fog Cloud
-		RemoveSpellRES("rr#fcld") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcld",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -241,7 +241,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcld",LastSeenBy(Myself)) // Fog Cloud
-		RemoveSpellRES("rr#fcld") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcld",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -268,7 +268,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcld",LastSeenBy(Myself)) // Fog Cloud
-		RemoveSpellRES("rr#fcld") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcld",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -291,7 +291,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcld",LastSeenBy(Myself)) // Fog Cloud
-		RemoveSpellRES("rr#fcld") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcld",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -314,7 +314,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcld",LastSeenBy(Myself)) // Fog Cloud
-		RemoveSpellRES("rr#fcld") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcld",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -337,7 +337,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcld",LastSeenBy(Myself)) // Fog Cloud
-		RemoveSpellRES("rr#fcld") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcld",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -360,7 +360,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcld",LastSeenBy(Myself)) // Fog Cloud
-		RemoveSpellRES("rr#fcld") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcld",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -383,7 +383,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcld",LastSeenBy(Myself)) // Fog Cloud
-		RemoveSpellRES("rr#fcld") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcld",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -406,7 +406,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcld",LastSeenBy(Myself)) // Fog Cloud
-		RemoveSpellRES("rr#fcld") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcld",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -429,7 +429,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcld",LastSeenBy(Myself)) // Fog Cloud
-		RemoveSpellRES("rr#fcld") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcld",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -452,7 +452,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcld",LastSeenBy(Myself)) // Fog Cloud
-		RemoveSpellRES("rr#fcld") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcld",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -475,7 +475,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcld",LastSeenBy(Myself)) // Fog Cloud
-		RemoveSpellRES("rr#fcld") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcld",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -498,7 +498,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcld",LastSeenBy(Myself)) // Fog Cloud
-		RemoveSpellRES("rr#fcld") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcld",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -523,7 +523,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcld",LastSeenBy(Myself)) // Fog Cloud
-		RemoveSpellRES("rr#fcld") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcld",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -548,7 +548,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcld",LastSeenBy(Myself)) // Fog Cloud
-		RemoveSpellRES("rr#fcld") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcld",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -571,7 +571,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcld",LastSeenBy(Myself)) // Fog Cloud
-		RemoveSpellRES("rr#fcld") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcld",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -594,7 +594,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcld",LastSeenBy(Myself)) // Fog Cloud
-		RemoveSpellRES("rr#fcld") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcld",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -617,7 +617,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcld",LastSeenBy(Myself)) // Fog Cloud
-		RemoveSpellRES("rr#fcld") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcld",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -640,7 +640,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcld",LastSeenBy(Myself)) // Fog Cloud
-		RemoveSpellRES("rr#fcld") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcld",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -663,7 +663,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcld",LastSeenBy(Myself)) // Fog Cloud
-		RemoveSpellRES("rr#fcld") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcld",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -686,7 +686,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcld",LastSeenBy(Myself)) // Fog Cloud
-		RemoveSpellRES("rr#fcld") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcld",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -724,7 +724,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcsng",Myself) // Charming Song
-		RemoveSpellRES("rr#fcsng") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcsng",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -762,7 +762,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcsng",Myself) // Charming Song
-		RemoveSpellRES("rr#fcsng") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcsng",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -800,7 +800,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcsng",Myself) // Charming Song
-		RemoveSpellRES("rr#fcsng") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcsng",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -838,7 +838,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcsng",Myself) // Charming Song
-		RemoveSpellRES("rr#fcsng") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcsng",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -876,7 +876,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcsng",Myself) // Charming Song
-		RemoveSpellRES("rr#fcsng") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcsng",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -914,7 +914,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcsng",Myself) // Charming Song
-		RemoveSpellRES("rr#fcsng") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcsng",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -945,7 +945,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcsng",Myself) // Charming Song
-		RemoveSpellRES("rr#fcsng") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcsng",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -976,7 +976,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcsng",Myself) // Charming Song
-		RemoveSpellRES("rr#fcsng") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcsng",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -1007,7 +1007,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcsng",Myself) // Charming Song
-		RemoveSpellRES("rr#fcsng") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcsng",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -1037,7 +1037,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcsng",Myself) // Charming Song
-		RemoveSpellRES("rr#fcsng") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcsng",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -1067,7 +1067,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcsng",Myself) // Charming Song
-		RemoveSpellRES("rr#fcsng") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcsng",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -1097,7 +1097,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcsng",Myself) // Charming Song
-		RemoveSpellRES("rr#fcsng") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcsng",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -1130,7 +1130,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcsng",Myself) // Charming Song
-		RemoveSpellRES("rr#fcsng") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcsng",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -1163,7 +1163,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcsng",Myself) // Charming Song
-		RemoveSpellRES("rr#fcsng") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcsng",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -1196,7 +1196,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcsng",Myself) // Charming Song
-		RemoveSpellRES("rr#fcsng") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcsng",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -1229,7 +1229,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcsng",Myself) // Charming Song
-		RemoveSpellRES("rr#fcsng") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcsng",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -1262,7 +1262,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcsng",Myself) // Charming Song
-		RemoveSpellRES("rr#fcsng") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcsng",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -1295,7 +1295,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcsng",Myself) // Charming Song
-		RemoveSpellRES("rr#fcsng") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcsng",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -1328,7 +1328,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcsng",Myself) // Charming Song
-		RemoveSpellRES("rr#fcsng") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcsng",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -1361,7 +1361,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcsng",Myself) // Charming Song
-		RemoveSpellRES("rr#fcsng") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcsng",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -1394,7 +1394,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcsng",Myself) // Charming Song
-		RemoveSpellRES("rr#fcsng") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcsng",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -1427,7 +1427,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		ForceSpellRES("rr#fcsng",Myself) // Charming Song
-		RemoveSpellRES("rr#fcsng") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#fcsng",Myself) // remove one instance of the spell upon casting
 		SetInterrupt(TRUE)
 END
 
@@ -1865,7 +1865,7 @@ THEN
 		SetInterrupt(FALSE)
 		SetGlobalTimer("RR#Cast","LOCALS",6)
                 ForceSpellRES("rr#pjell",Myself) // Polymorph Mustard Jelly
-		RemoveSpellRES("rr#pjell") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#pjell",Myself) // remove one instance of the spell upon casting
                 DestroyItem("rr#fsiri") // Sirine's Boots (destroyed to restore slow movement rate for the Mustard Jelly form)
 		SetInterrupt(TRUE)
 END
@@ -1887,7 +1887,7 @@ THEN
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		SetGlobalTimer("RR#Poly","LOCALS",12) // polymorph timer
         ForceSpellRES("rr#pjell",Myself) // Polymorph Mustard Jelly
-		RemoveSpellRES("rr#pjell") // remove one instance of the spell upon casting
+		RemoveSpellRES("rr#pjell",Myself) // remove one instance of the spell upon casting
         DestroyItem("rr#fsiri") // Sirine's Boots (destroyed to restore slow movement rate for the Mustard Jelly form)
 		SetInterrupt(TRUE)
 	RESPONSE #65

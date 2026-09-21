@@ -76,7 +76,7 @@ THEN
 		SetGlobalTimer("RR#Cast","LOCALS",6)
 		CreateCreatureOffscreen("RR#TRAT",0) // Targeting Rat (script aid)
 		ForceSpellRES("rr#tvplx","RR#TRAT") // Dimension Door (special version, breaks targeting via 1 second invisibility)
-		RemoveSpellRES("rr#tvpl2") // remove the spell from memory
+		RemoveSpellRES("rr#tvpl2",Myself) // remove the spell from memory
 		SetInterrupt(TRUE)
 END
 
